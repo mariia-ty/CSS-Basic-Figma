@@ -1,0 +1,54 @@
+:root {
+    --header-accent-color: #03A9F4;
+    --grey_header_color: #7D7D7D;
+    --span_title_color: #B4AD9E;
+    --common_txt_color: #626262;
+}
+
+.header_link {
+    text-decoration: none;
+    color: var(--grey_header_color);
+}
+
+.header_list {
+    list-style: none;
+}
+
+.header_item {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.active {
+    color: var(--header-accent-color);
+}
+
+.span_title {
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--span_title_color);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.title_card {
+    color: var(--common_txt_color);
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.txt_par {
+    color: var(--common_txt_color);
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
