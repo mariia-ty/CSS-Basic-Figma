@@ -49,15 +49,13 @@
 }
 
 .header {
-    margin-top: 71px;
+    margin: 71px 0 92px 0;
 }
 
-.main {
-    margin-top: 92px;
-}
 
-.content-list {
+.content_list {
     list-style: none;
+    columns: 2;
 }
 
 .card-item {
@@ -81,4 +79,16 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+}
+
+.load_button {
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 35px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px 48px 21px 49px;
+    border: 1px solid var(--common_txt_color);
+    background-color: white;
 }
