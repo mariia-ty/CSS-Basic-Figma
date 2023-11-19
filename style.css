@@ -5,12 +5,22 @@
     --common_txt_color: #626262;
 }
 
+.container {
+    max-width: 906px;
+    outline: solid var(--grey_header_color);
+    margin: 0 auto;
+}
+
 .header_link {
     text-decoration: none;
     color: var(--grey_header_color);
 }
 
 .header_list {
+    list-style: none;
+}
+
+.content-list {
     list-style: none;
 }
 
