@@ -14,14 +14,16 @@
 .header_link {
     text-decoration: none;
     color: var(--grey_header_color);
+    
 }
 
 .header_list {
     list-style: none;
-}
-
-.content-list {
-    list-style: none;
+    display: flex;
+    max-width: 555px;
+    outline: 2px solid var(--grey_header_color);
+    margin: auto;
+    
 }
 
 .header_item {
@@ -30,6 +32,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    margin: 0 90px 0 0;
 }
 
 .active {
@@ -43,6 +46,18 @@
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+}
+
+.header {
+    margin-top: 71px;
+}
+
+.main {
+    margin-top: 92px;
+}
+
+.content-list {
+    list-style: none;
 }
 
 .title_card {
