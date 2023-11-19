@@ -60,6 +60,11 @@
     list-style: none;
 }
 
+.card-item {
+    max-width: 420px;
+    max-height: 546px;
+}
+
 .title_card {
     color: var(--common_txt_color);
     font-family: 'Playfair Display', serif;
