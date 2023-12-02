@@ -6,7 +6,7 @@
 }
 
 .container {
-    max-width: 906px;
+    width: 906px;
     outline: solid var(--grey_header_color);
     margin: 0 auto;
 }
@@ -20,7 +20,7 @@
 .header_list {
     list-style: none;
     display: flex;
-    max-width: 555px;
+    width: 555px;
     outline: 2px solid var(--grey_header_color);
     margin: auto;
     
@@ -55,12 +55,16 @@
 
 .content_list {
     list-style: none;
-    columns: 2;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .card-item {
-    max-width: 420px;
-    max-height: 546px;
+    width: 420px;
+    height: 546px;
+    margin: 0 auto;
+    padding: 0;
 }
 
 .title_card {
